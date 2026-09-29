@@ -1,31 +1,5 @@
 # Neuro Exam Toolkit — GitHub Pages PWA
 
-This folder is ready to upload to a GitHub repository and publish with GitHub Pages.
-
-## Files to upload
-
-Upload the **contents of this folder to the repository root**, preserving the `icons/` folder:
-
-- `index.html`
-- `manifest.webmanifest`
-- `service-worker.js`
-- `.nojekyll`
-- `icons/`
-- `README.md`
-
-The app shell and icons are fully local. The official NINDS NIHSS PDF and public-domain Wikimedia Ishihara plates are cached best-effort by the service worker when online.
-
-## GitHub Pages setup
-
-1. Create a GitHub repository, for example `neuro-exam-toolkit`.
-2. Upload all of these files/folders to the repository root.
-3. Open **Settings → Pages** in the repository.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select the `main` branch and `/ (root)` folder, then Save.
-6. GitHub will provide an HTTPS URL such as `https://USERNAME.github.io/neuro-exam-toolkit/`.
-
-GitHub Pages HTTPS is important because Service Workers and the normal Android PWA install flow require a secure context.
-
 ## Android install
 
 Open the GitHub Pages URL in Chrome. Once Chrome recognizes the PWA, use **Install app** from Chrome's menu or the install control shown by Chrome. The app opens in a standalone window after installation.
